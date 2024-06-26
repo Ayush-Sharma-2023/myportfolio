@@ -22,7 +22,7 @@ body{
     padding: 0;
     
 }
-ul{
+.navlist{
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -32,12 +32,12 @@ ul{
     
     
 }
-li:hover{
+.navitem:hover{
     cursor: pointer;
     color: #147097;
     
 }
-li{
+.navitem{
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;

@@ -3,6 +3,7 @@
     height: 250px;
     background-color: #147097;
     border: 1px solid black;
+    display: flex;
     
 }
 
@@ -23,4 +24,34 @@
     margin-left: 40px;
     padding-top: 20px;
     
+}
+img{
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 20px;
+
+
+
+}
+
+.icons{
+    
+}
+.iconlist{
+    
+    
+    
+    
+}
+
+.iconitem{
+    size: 20px;
+    
+    
+    
+}
+
+.iconitem:hover{
+    background-color: #192B43;
 }

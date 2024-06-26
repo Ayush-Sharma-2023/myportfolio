@@ -2,14 +2,14 @@ import "./body.css";
 export default function body(){
     return(
         <>
-        <div class="box">
+        <div className="box">
 
-<div class="navbar">
-    <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>About</li>
-        <li>Contact</li>
+<div className="navbar">
+    <ul className="navlist">
+        <li className="navitem">Home</li>
+        <li className="navitem">Projects</li>
+        <li className="navitem">About</li>
+        <li className="navitem">Contact</li>
     </ul>
 
 </div>
