@@ -1,11 +1,15 @@
 
 import './App.css';
-import Heading from './components/heading';
+
+import Banner from './components/banner';
+import Body from './components/body';
 
 function App() {
   return (
     <>
-    {< Heading />}
+    
+    {< Banner/>}
+    {< Body/>}
 
 
 

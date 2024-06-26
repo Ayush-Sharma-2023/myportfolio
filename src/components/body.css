@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    border: 5px solid #192B43 ;
+}
+
+
+.box{
+    /* border: 3px solid red; */
+    height: 800px;
+    background-color: #192B43;
+}
+
+
+
+.navbar{
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family:Verdana;
+    
+    
+    
+    
+}
+li:hover{
+    cursor: pointer;
+    color: #147097;
+    
+}
+li{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
