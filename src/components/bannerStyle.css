@@ -1,0 +1,26 @@
+.banner{
+    
+    height: 250px;
+    background-color: #147097;
+    border: 1px solid black;
+    
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:Verdana;
+    margin-left: 40px;
+    padding-top: 80px;
+    
+}
+.subtitle{
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-family:Verdana;
+    margin-left: 40px;
+    padding-top: 20px;
+    
+}
