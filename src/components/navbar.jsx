@@ -8,8 +8,8 @@ export default function body(){
     <ul className="navlist">
         <li className="navitem">Home</li>
         <li className="navitem">Projects</li>
-        <li className="navitem">About</li>
-        <li className="navitem">Contact</li>
+        <li className="navitem">Experience</li>
+        <li className="navitem">Certificates</li>
     </ul>
 
 </div>
