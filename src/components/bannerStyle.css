@@ -1,11 +1,15 @@
 .banner{
     
     height: 250px;
+
     background-color: #147097;
     border: 1px solid black;
     display: flex;
     
+
+    
 }
+
 
 .title{
     color: white;
@@ -37,14 +41,25 @@ img{
 
 .icons{
     display: flex;
+    display: list-item;
+    list-style: none;
+    
+    margin-left: 300px;
+    align-items: end;
+    margin-top: 120px;
+    color: black;
+    /* border: 1px solid red; */
+    
+    
+    
+    
+    
     
 }
 .iconlist{
     display: flex;
     list-style: none;
     justify-content: space-around;
-    
-
     
     
     
@@ -53,7 +68,14 @@ img{
 }
 
 .iconitem{
-    size: 80px;
+    /* size: 80px; */
+    font-size: 60px;
+    margin-left: 20px;
+    
+    
+    
+
+    
     
     
     
@@ -62,6 +84,13 @@ img{
 }
 
 .iconitem:hover{
-    background-color: #192B43;
-    border: 2px solid red;
+    
+    cursor: pointer;
+    font-size: 70px;
+    margin-bottom: 90px;
+
+    color: white;
+    
+    
+
 }

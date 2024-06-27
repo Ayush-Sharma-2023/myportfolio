@@ -10,7 +10,7 @@ body{
 
 .box{
     /* border: 3px solid red; */
-    height: 800px;
+    height: 100px;
     background-color: #192B43;
 }
 
@@ -20,6 +20,7 @@ body{
     color: white;
     margin: 0;
     padding: 0;
+    
     
 }
 .navlist{

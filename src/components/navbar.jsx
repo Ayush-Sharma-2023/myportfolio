@@ -1,4 +1,4 @@
-import "./body.css";
+import "./navbar.css";
 export default function body(){
     return(
         <>

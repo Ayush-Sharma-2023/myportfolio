@@ -2,14 +2,14 @@
 import './App.css';
 
 import Banner from './components/banner';
-import Body from './components/body';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <>
     
     {< Banner/>}
-    {< Body/>}
+    {< Navbar/>}
 
 
 
