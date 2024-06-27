@@ -36,9 +36,16 @@ img{
 }
 
 .icons{
+    display: flex;
     
 }
 .iconlist{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+
+    
     
     
     
@@ -46,7 +53,9 @@ img{
 }
 
 .iconitem{
-    size: 20px;
+    size: 80px;
+    
+    
     
     
     
@@ -54,4 +63,5 @@ img{
 
 .iconitem:hover{
     background-color: #192B43;
+    border: 2px solid red;
 }
