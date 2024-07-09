@@ -10,13 +10,7 @@ import "./projects.css";
 
 export default function Projects() {
 
-    const handleMouseOver = (e) => {
-        e.currentTarget.classList.add('paused'); // Pause animation
-    };
-
-    const handleMouseOut = (e) => {
-        e.currentTarget.classList.remove('paused'); // Resume animation
-    };
+    
 
     return(
         <>
