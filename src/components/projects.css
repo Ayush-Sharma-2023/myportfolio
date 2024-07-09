@@ -1,0 +1,12 @@
+.Projects{
+    background-color: #192B43;
+}
+.calculator{
+    width: 250px;
+    margin: 20px;
+
+
+}
+.calculator:hover{
+    cursor: pointer;
+}

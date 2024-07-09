@@ -1,5 +1,5 @@
 import "./bannerStyle.css";
-import photo from "./profile.jpg"
+import photo from "../images/profile.jpg"
 import { CiLinkedin } from "react-icons/ci";
 import { LiaLinkedin } from "react-icons/lia";
 
@@ -33,7 +33,7 @@ export default function banner(){
         <>
         <div className="banner">
             <div className="profilePic">
-            <img src={photo} alt="" />
+            <img className="profile-pic" src={photo} alt="" />
 
             </div>
             <div className="text">
