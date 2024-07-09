@@ -26,21 +26,7 @@ export default function Projects() {
             <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
             <img className="calculator" src={Calculator} alt="HiTech Calculator" />
             </a>
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <img className="calculator" src={Calculator} alt="HiTech Calculator" />
-            </a>
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <img className="calculator" src={Calculator} alt="HiTech Calculator" />
-            </a>
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <img className="calculator" src={Calculator} alt="HiTech Calculator" />
-            </a>
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <img className="calculator" src={Calculator} alt="HiTech Calculator" />
-            </a>
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            <img className="calculator" src={Calculator} alt="HiTech Calculator" />
-            </a>
+         
 
     
 
