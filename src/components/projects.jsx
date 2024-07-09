@@ -1,5 +1,7 @@
 import Calculator from "./../images/HiTechCalculator.png";
 import Marquee from "react-fast-marquee"
+// npm run deploy
+
 
 import "./projects.css";
 
