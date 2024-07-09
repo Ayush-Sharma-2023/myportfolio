@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # Set to your branch name
+    branches: ['main']
+      #- main  # Set to your branch name
       #branches: ['main']
 
 jobs:
