@@ -20,7 +20,7 @@ export default function Projects() {
 
         <div className="Projects">
             <Marquee pauseOnHover speed={200}>
-            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://ayush-sharma-2023.github.io/HiTech-Calculator/" target="_blank" rel="noopener noreferrer">
             <img className="calculator" src={Calculator} alt="HiTech Calculator" />
             </a>
          
