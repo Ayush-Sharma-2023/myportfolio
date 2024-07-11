@@ -1,10 +1,10 @@
-import Calculator from "./../images/HiTechCalculator.png";
+import Calculator from ".././../images/HiTechCalculator.png";
 import Marquee from "react-fast-marquee"
 // npm run deploy
 //use it
 
 
-import "./projects.css";
+import "../CSS_files/projects.css";
 
 
 

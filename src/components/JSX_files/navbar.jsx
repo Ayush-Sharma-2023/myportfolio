@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "../CSS_files/navbar.css";
 import Home from './home';
 import Projects from './projects';
 import Experience from "./experience";

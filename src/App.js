@@ -1,8 +1,7 @@
-
 import './App.css';
 
-import Banner from './components/banner';
-import Navbar from './components/navbar';
+import Banner from './components/JSX_files/banner';
+import Navbar from './components/JSX_files/navbar';
 
 
 

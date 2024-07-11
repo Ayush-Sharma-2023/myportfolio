@@ -1,5 +1,6 @@
-import "./bannerStyle.css";
-import photo from "../images/profile.jpg"
+// import "./bannerStyle.css";
+import "../CSS_files/bannerStyle.css";
+import photo from "../../images/profile.jpg"
 // import { CiLinkedin } from "react-icons/ci";
 import { LiaLinkedin } from "react-icons/lia";
 
