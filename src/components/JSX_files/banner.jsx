@@ -1,14 +1,7 @@
 // import "./bannerStyle.css";
 import "../CSS_files/bannerStyle.css";
 import photo from "../../images/profile.jpg"
-// import { CiLinkedin } from "react-icons/ci";
 import { LiaLinkedin } from "react-icons/lia";
-
-
-
-
-
-
 import { FaGithub } from "react-icons/fa";
 import { SiCodechef } from "react-icons/si";
 
@@ -19,7 +12,6 @@ export default function banner(){
 
     const openLinkedin = () => {
         window.open('https://www.linkedin.com/in/ayush-sharma-39a232256/','_blank');
-
     };
 
     const openGithub = () => {
@@ -34,6 +26,7 @@ export default function banner(){
         <>
         <div className="banner">
             <div className="profilePic">
+            
             <img className="profile-pic" src={photo} alt="" />
 
             </div>
@@ -44,6 +37,7 @@ export default function banner(){
             </div>
 
             <div className="icons">
+            <p className="profile">My Profiles</p><br />
                 <ul className="iconlist">
                     
                     <li className="iconitem" onClick={openLinkedin}> <LiaLinkedin/> </li>

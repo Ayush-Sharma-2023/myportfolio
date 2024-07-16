@@ -40,21 +40,25 @@
 }
 
 .icons{
+    /* border: 1px solid red; */
     display: flex;
     display: list-item;
     list-style: none;
     
-    margin-left: 300px;
+    margin-left: 500px;
     align-items: end;
-    margin-top: 120px;
+    margin-top: 20px;
     color: black;
     /* border: 1px solid red; */
-    
-    
-    
-    
-    
-    
+}
+.profile{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 50px;
+    /* font-weight: bolder; */
+
+
 }
 .iconlist{
     display: flex;
@@ -86,7 +90,7 @@
 .iconitem:hover{
     
     cursor: pointer;
-    font-size: 70px;
+    /* font-size: 70px; */
     margin-bottom: 90px;
 
     color: white;
