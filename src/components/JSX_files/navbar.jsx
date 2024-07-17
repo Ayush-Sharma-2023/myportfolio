@@ -3,44 +3,45 @@ import Home from './home';
 import Projects from './projects';
 import Experience from "./experience";
 import Certificates from "./certificates";
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
+export default function Body() {
+    const homeRef = useRef(null);
+    const projectsRef = useRef(null);
+    const experienceRef = useRef(null);
+    const certificatesRef = useRef(null);
 
-export default function Body(){
+    const handleNavItemClick = (ref) => {
+        ref.current.scrollIntoView({ behavior: 'smooth' });
+    };
 
-    
-        const [activeSection, setActiveSection] = useState('Home'); // Default active section
-    
-        const handleNavItemClick = (section) => {
-            setActiveSection(section);
-        };
-
-
-    return(
+    return (
         <>
-        <div className="box">
+            <div className="box">
+                <div className="navbar">
+                    <ul className="navlist">
+                        <li className="navitem" onClick={() => handleNavItemClick(homeRef)}>Home</li>
+                        <li className="navitem" onClick={() => handleNavItemClick(projectsRef)}>Projects</li>
+                        <li className="navitem" onClick={() => handleNavItemClick(experienceRef)}>Experience</li>
+                        <li className="navitem" onClick={() => handleNavItemClick(certificatesRef)}>Certificates</li>
+                    </ul>
+                </div>
 
-<div className="navbar">
-    <ul className="navlist">
-        <li className="navitem" onClick={()=> handleNavItemClick('Home') }  >Home</li>
-        <li className="navitem" onClick={()=> handleNavItemClick('Projects')}>Projects</li>
-        <li className="navitem" onClick={()=> handleNavItemClick('Experience')}>Experience</li>
-        <li className="navitem" onClick={()=> handleNavItemClick('Certificates')}>Certificates</li>
-    </ul>
-
-</div>
-
-<div className="content">
-                {activeSection === 'Home' && <Home />}
-                {activeSection === 'Projects' && <Projects />}
-                {activeSection === 'Experience' && <Experience />}
-                {activeSection === 'Certificates' && <Certificates />}
+                <div className="content">
+                    <div ref={homeRef}>
+                        <Home />
+                    </div>
+                    <div ref={projectsRef}>
+                        <Projects />
+                    </div>
+                    <div ref={experienceRef}>
+                        <Experience />
+                    </div>
+                    <div ref={certificatesRef}>
+                        <Certificates />
+                    </div>
+                </div>
             </div>
-
-
-</div>
-        
-        
         </>
     );
 }
