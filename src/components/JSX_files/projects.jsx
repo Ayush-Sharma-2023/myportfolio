@@ -14,8 +14,9 @@ export default function Projects() {
 
     return(
         <>
+        <h2>Test</h2>
 
-        {/* <h1>Projects</h1> */}
+        <h1>Projects</h1>
         
 
         <div className="Projects">
