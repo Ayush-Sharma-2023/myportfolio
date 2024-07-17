@@ -3,7 +3,7 @@ import Home from './home';
 import Projects from './projects';
 import Experience from "./experience";
 import Certificates from "./certificates";
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 
 export default function Body() {
     const homeRef = useRef(null);
