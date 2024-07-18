@@ -26,7 +26,31 @@ export default function home() {
           </div>
           <div className="right">
             {/* <img className={style.profileIcon} src={photo} alt="" /> */}
-            <div className={style.profileIcon}></div>
+            {/* <div className={style.profileIcon}></div> */}
+
+            {/* ORBIT TEST */}
+            <div className={style.solar}>
+            <div className={style.vector}></div>
+
+            <div className={style.orbit}>
+              <div className={style.logo}></div>
+            </div>
+
+            <div className={style.orbit2}>
+              <div className={style.logo2}></div>
+            </div>
+            <div className={style.orbit3}>
+              <div className={style.logo3}></div>
+            </div>
+            <div className={style.orbit4}>
+              <div className={style.logo4}></div>
+            </div>
+            <div className={style.orbit5}>
+              <div className={style.logo5}></div>
+            </div>
+          </div>
+            {/* ORBIT TEST ENDS */}
+            {/* <span>ORBIT LOGO HERE</span> */}
           </div>
         </div>
       </div>
