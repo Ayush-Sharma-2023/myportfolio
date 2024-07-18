@@ -1,24 +1,35 @@
-import '../CSS_files/home.css';
-import '../CSS_files/tags.css';
-export default function home (){
+// import '../CSS_files/home.css';
+import "../CSS_files/tags.css";
+// import photo from "../../images/profileIcon.jpg";
+import style from "../CSS_files/home.module.css";
 
-    return(
-        <>
-        <div className="home">
+export default function home() {
+  return (
+    <>
+      <div className="home">
         <h2>Test</h2>
         <h1> HOME</h1>
-       
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ut, atque reprehenderit impedit maxime officia qui, nihil nostrum, ab mollitia excepturi possimus vitae sequi dolor consequatur dicta quo? At reiciendis corporis in maiores sunt odit omnis, pariatur dolorem repudiandae laborum sit nulla minima ex culpa nisi illo ipsa illum harum possimus. Omnis illo vitae hic minima adipisci dignissimos ducimus, sequi laborum officia, exercitationem qui at recusandae eos esse facilis aliquid? Omnis repellat magni ut unde! Dolore, ea fugiat? Praesentium eos placeat perferendis, consequatur natus tenetur recusandae itaque velit quae non totam harum aliquid! Provident earum temporibus illo accusantium repellat impedit incidunt eius? Eligendi repudiandae sint atque quam provident labore qui, illo non voluptas optio odio et! Itaque, sint ullam. Sint aspernatur, saepe mollitia iure alias, praesentium optio magni reiciendis est modi odio. Molestiae dignissimos nihil, aliquid corporis ducimus nesciunt eos quam explicabo repellat, dolor earum repudiandae inventore error cumque distinctio minima, fugiat libero voluptas. Facilis rem aperiam fugit veritatis deleniti ad itaque voluptatum odit et, odio voluptates sint consequatur optio pariatur animi eveniet doloribus suscipit eos illo sapiente! Magnam temporibus cumque ea eveniet repudiandae obcaecati cupiditate perferendis voluptatibus magni, debitis architecto dicta similique molestias vitae assumenda ab neque, voluptas tempora.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sed possimus debitis vel, sapiente nam explicabo rem distinctio numquam ex unde ut velit officia, aliquam et! Neque autem maiores quos commodi distinctio libero eum, omnis voluptatibus magni delectus laborum quibusdam quaerat quis assumenda impedit nam perferendis aliquid quam qui. Commodi illo ab, possimus perferendis sapiente dolor minima nihil nemo excepturi quis hic culpa nam exercitationem eligendi dolorem omnis quia nesciunt inventore autem veritatis corporis totam quas. Maiores similique perspiciatis unde expedita non cumque vel enim natus animi amet, excepturi eum necessitatibus totam qui quibusdam id dolorum? Unde ullam sapiente tempore dicta amet, perspiciatis dolorem alias, incidunt, praesentium suscipit deserunt facilis maxime illo ex voluptatum neque minus magni beatae saepe dolor reiciendis at cupiditate illum. Saepe repellendus accusantium illo nisi numquam deserunt itaque aliquam, ab recusandae animi magnam laboriosam natus temporibus consectetur totam a unde veritatis alias, harum eum eos molestiae reiciendis aperiam? Quis laboriosam labore fugit obcaecati, atque hic porro vitae veritatis inventore veniam nesciunt. Facere minus, voluptatum id suscipit dolorem error quos reprehenderit nisi fugit consectetur dolores ut. Vitae dolorem quibusdam veritatis modi at a maiores ea culpa iure! Et necessitatibus laborum totam facilis ab adipisci rem beatae est aspernatur excepturi sit praesentium optio nihil sapiente consequatur ut dolorem, ad sunt, eius quasi voluptas libero voluptates. Illum corrupti facilis quas quo consectetur cum, vitae porro repudiandae libero debitis architecto ex provident quae velit? Totam, perferendis odio. Illo fugiat error sit, nesciunt quis eius nam dolore totam culpa cumque, sint reprehenderit temporibus ut adipisci minus a cupiditate, non dicta eaque doloribus incidunt. Obcaecati necessitatibus sequi corporis voluptatem deleniti beatae voluptatum cum! Consequatur, accusamus beatae? Explicabo rem quibusdam aliquid facilis cupiditate a itaque unde doloribus neque ab, ad quod! Iusto consequuntur adipisci fugit. Natus ex mollitia sint quae adipisci iure. Excepturi amet saepe ex provident consectetur voluptas aperiam nulla doloribus perferendis suscipit commodi beatae, blanditiis iusto nesciunt explicabo ipsa vitae dolores cupiditate expedita minima qui facilis fugiat? Commodi, rerum impedit quisquam nihil ut cupiditate inventore molestias ea atque recusandae aspernatur sit enim et dicta molestiae vitae modi ipsam tempora nisi iusto quibusdam asperiores necessitatibus aliquid voluptates? Ut rem, quia illo repudiandae distinctio, magni suscipit voluptatum tempore vitae maxime molestiae hic corrupti unde quisquam placeat repellendus temporibus, deserunt accusantium debitis a eum delectus iste. Soluta illo dolores veritatis eveniet mollitia nam libero ullam sed, quos similique adipisci facere vero, cumque perferendis dolor! Enim tenetur quia qui placeat voluptatem, optio modi, ratione consequuntur odit repellendus quis. Iusto porro reiciendis veritatis, dicta, sequi tenetur tempora aspernatur cupiditate itaque asperiores aperiam. Ut magnam, facilis, quos alias tempore error delectus eos vitae laboriosam cum unde! Magni assumenda sequi blanditiis nam mollitia pariatur enim optio architecto error inventore asperiores doloribus aspernatur, doloremque rerum similique cupiditate est quidem voluptates dignissimos accusantium numquam. Assumenda distinctio asperiores, deleniti placeat molestiae harum. Quia nesciunt iste, sapiente repudiandae sint id facilis odio dolor eligendi dolores a quibusdam cum magni ea veniam adipisci quas quis. Aperiam, dicta iste! Inventore pariatur sed maxime ab sint. Est, incidunt saepe omnis libero unde ea expedita facere totam dolorem quia nemo amet eum voluptatibus dolorum, accusamus ex quod dicta! Eius, tempore ipsum voluptate consequatur assumenda eligendi magnam quibusdam enim esse illum. Molestiae reiciendis nisi provident? Quo, provident odit consectetur a dolor maiores voluptatem, quaerat nam ad excepturi magni itaque deserunt consequuntur illo. Id quo natus saepe esse, suscipit delectus laudantium minima quod exercitationem a! Tempore sapiente laudantium, doloribus iusto recusandae nisi nobis at eum non expedita commodi hic voluptates voluptatum nesciunt quos sed minima pariatur cupiditate magni reiciendis fuga iste voluptatem distinctio ex! Aperiam eos assumenda nam architecto! Temporibus consequatur nemo earum saepe beatae, recusandae minus ipsum possimus perspiciatis debitis cumque odit, id excepturi? Illo fugit minima eveniet sunt perferendis quae reprehenderit ea, mollitia ducimus, veritatis, rem laborum. Labore dolorum at nihil qui accusantium reprehenderit veritatis et, nostrum ullam alias blanditiis voluptas ab. Unde odit nam quia dolore sed. Enim, quos ducimus. Nesciunt labore voluptatum voluptates sunt architecto, tenetur officia, rerum, sed non eveniet aut fugiat temporibus minima ab. Recusandae maiores nostrum quia doloribus fugiat nam voluptas? Asperiores officiis nam repellat animi laudantium dolorum sint aperiam nemo exercitationem fuga aspernatur, fugit inventore, eum facilis. Facere iusto ex placeat debitis amet, magni ducimus! Recusandae quae aliquid sed, pariatur inventore enim voluptatibus assumenda! Doloribus porro error pariatur. Vitae saepe, ullam, eaque suscipit accusantium ipsum molestiae culpa laboriosam libero sapiente recusandae odio neque! Adipisci delectus tempore sequi quibusdam libero, minima fuga quasi illo dolor quia consequatur vero velit repellat. Enim odit nesciunt illo quisquam, repudiandae eos vel quo! Possimus ut dolorem impedit repudiandae, ipsa illum. Quam autem, aliquam, aut necessitatibus porro natus quibusdam dolorum fuga officiis eum minus cum, deserunt ut. Eveniet, temporibus! Deserunt, nobis, perspiciatis iure distinctio hic enim consectetur sequi pariatur quae non, libero ipsam natus id placeat unde? Eos culpa dolore fugit aut nisi ducimus, esse nesciunt dicta ipsa consectetur, deleniti cum eaque, sed maiores temporibus nihil. Ipsam nihil debitis expedita doloremque perspiciatis, sequi deleniti nemo fuga blanditiis necessitatibus repellendus deserunt odit eligendi repudiandae a aperiam, et, ad ipsum? Quia eos vitae iusto doloremque aspernatur commodi neque odit dolore accusamus ea iure, praesentium ipsa optio ullam qui voluptas alias consequatur, quo quas quae vel aut. Repellendus asperiores error, itaque corrupti provident quod totam porro ut, dolores, eius rem expedita alias earum. Dolor autem architecto, omnis quam porro facere quasi. Voluptate itaque quos aperiam a deleniti voluptates nemo maiores doloremque delectus dolores, magni at eos, repellendus similique. Libero sequi doloremque velit cum neque voluptates qui quibusdam eos esse id eum quidem, reprehenderit at. Tempora minus accusantium eius aspernatur perferendis eos ipsa dicta iure doloribus. Excepturi labore iste optio ab voluptates explicabo. Reprehenderit sed ab molestias doloremque amet soluta accusamus, unde optio, error, quibusdam magnam? Asperiores debitis tempore, eveniet dolor voluptas, cum odit, facere ratione aut quam fuga dicta quo ipsam nisi! Veritatis itaque laborum rem hic culpa dolore placeat consequatur totam, earum sunt, iure exercitationem necessitatibus! Natus delectus quam esse hic reiciendis repellendus, et cumque animi vero amet.
 
-        </p>
-       
-        
+        <div className={style.container}>
+          <div className="left">
+            <p className={style.about}>
+              Hi I'm <br />
+              Ayush Sharma <br />
+              <span className={style.FD}>Frontend Developer</span>
+            </p>
 
+            <p className={style.subAbout}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              quaerat impedit saepe, et nobis eveniet dolorem. Minus dolorem
+              magni vitae?
+            </p>
+          </div>
+          <div className="right">
+            {/* <img className={style.profileIcon} src={photo} alt="" /> */}
+            <div className={style.profileIcon}></div>
+          </div>
         </div>
-        
-        </>
-    )
-
-
+      </div>
+    </>
+  );
 }

@@ -3,6 +3,7 @@ h1{
     /* color: #192B43; */
     background-color: #192B43;
     text-align: center;
+    color: #192B43;
     
 }
 h2{
@@ -20,6 +21,11 @@ p{
     
     background-color: #192B43;
     color: white;
+}
+
+*{
+    background-color: #192B43;
+
 }
 
 

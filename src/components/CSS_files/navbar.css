@@ -12,7 +12,10 @@
 .box{
     /* border: 3px solid red; */
     height: 70px;
-    background-color: #192B43;
+    /* background-color: #192B43; */
+    
+
+
     position: sticky;
     top: -100;
     /* z-index: 1000; */
@@ -24,7 +27,10 @@
 .navbar{
     color: white;
     
-    background-color: #192B43;
+    /* background-color: #192B43; */
+    
+    
+    
     /* margin: 0; */
     height: 70px;
     padding: 0;
@@ -35,6 +41,9 @@
     z-index: 1000;
     top:0;
     /* position: fixed; */
+    /* background-color: #147097;
+    background-color:blue; */
+
     
     
 }
@@ -43,18 +52,31 @@
     justify-content: space-around;
     list-style: none;
     font-family:Verdana;
+    background-color: #147097;
+}
+.navlist, .navbar, .navitem { /* navbar colour*/
+    /* background-color:orange; */
+    background-color: #147097;
+    backdrop-filter: blur(30px); 
     
-    
-    
-    
+
 }
 .navitem:hover{
     cursor: pointer;
     color: #147097;
+    color: #192B43;
+    
+
+    
     
 }
 .navitem{
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
+    /* background-color: #147097; */
+    
+    
+    
+    
 }
