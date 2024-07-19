@@ -84,16 +84,8 @@ body {
   }
 }
 
-.orbit {
-  width: 200px;
-  height: 200px;
 
-  position: absolute;
-  border-radius: 50%;
-  margin-left: 180px;
-  margin-top: 40px;
-}
-.orbit2 {
+.orbit {
   width: 100px;
   height: 100px;
 
@@ -101,8 +93,9 @@ body {
   border-radius: 50%;
   margin-top: 90px;
   margin-left: 230px;
+  border: 2px solid red;
 }
-.orbit3 {
+.orbit2 {
   width: 150px;
   height: 150px;
 
@@ -110,8 +103,31 @@ body {
   border-radius: 50%;
   margin-top: 65px;
   margin-left: 205px;
+  border: 2px solid blue;
+
+}
+
+.orbit3 {
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 180px;
+  margin-top: 40px;
+  border: 2px solid green;
 }
 .orbit4 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 155px;
+  border: 2px solid yellow;
+  
+}
+.orbit5 {
   width: 300px;
   height: 300px;
 
@@ -119,35 +135,22 @@ body {
   border-radius: 50%;
   margin-top: -10px;
   margin-left: 130px;
+  border: 2px solid white;
 }
-.orbit5 {
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  border-radius: 50%;
-  margin-top: 15px;
-  margin-left: 155px;
-}
+
 
 .orbit,
 .orbit2,
 .orbit3,
 .orbit4,
 .orbit5 {
-  border: 1px solid #505050;
+  /* border: 1px solid #505050;
   border: 3px solid #505050;
-  border: 1px solid black;
+  border: 1px solid black; */
   border: 2px solid white;
 }
 
 .logo {
-  /* background-image: url(../images/C.png); */
-  background-image: url("../../images/profileIcon.jpg");
-  margin-top: 84px;
-  margin-left: 82px;
-  animation: orbit 2s infinite linear;
-}
-.logo2 {
   /* background-image: url(../images/figma.png); */
   background-image: url("../../images/profileIcon.jpg");
   margin-top: 36px;
@@ -155,27 +158,36 @@ body {
   padding: 0px;
   animation: orbit2 3s infinite linear;
 }
-.logo3 {
+.logo2 {
   /* background-image: url(../images/star.png); */
   background-image: url("../../images/profileIcon.jpg");
   margin-top: 60px;
   margin-left: 60px;
   animation: orbit3 6s infinite linear;
 }
-.logo4 {
-  /* background-image: url(../images/G.png); */
+.logo3 {
+  /* background-image: url(../images/C.png); */
   background-image: url("../../images/profileIcon.jpg");
-  margin-top: 135px;
-  margin-left: 135px;
-  animation: orbit4 5s infinite linear;
+  margin-top: 84px;
+  margin-left: 82px;
+  animation: orbit 2s infinite linear;
 }
-.logo5 {
+
+.logo4 {
   /* background-image: url(../images/tri.png); */
   background-image: url("../../images/profileIcon.jpg");
   margin-top: 106px;
   margin-left: 106px;
   animation: orbit5 4s infinite linear;
 }
+.logo5 {
+  /* background-image: url(../images/G.png); */
+  background-image: url("../../images/profileIcon.jpg");
+  margin-top: 135px;
+  margin-left: 135px;
+  animation: orbit4 5s infinite linear;
+}
+
 .logo,
 .logo2,
 .logo3,
@@ -233,6 +245,11 @@ body {
 }
 
 /* Orbit ends */
+
+
+
+
+
 
 /* Icons starts */
 .icons {
