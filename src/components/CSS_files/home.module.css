@@ -70,7 +70,7 @@ body {
 
   position: absolute;
   background-size: 40px;
-  margin-top: 120px;
+  margin-top: 130px;
   margin-left: 260px;
   border-radius: 50%;
   /* animation: rotate 10s infinite linear; */
@@ -91,7 +91,7 @@ body {
 
   position: absolute;
   border-radius: 50%;
-  margin-top: 90px;
+  margin-top: 100px;
   margin-left: 230px;
   border: 2px solid red;
 }
@@ -101,7 +101,7 @@ body {
 
   position: absolute;
   border-radius: 50%;
-  margin-top: 65px;
+  margin-top: 75px;
   margin-left: 205px;
   border: 2px solid blue;
 
@@ -114,7 +114,7 @@ body {
   position: absolute;
   border-radius: 50%;
   margin-left: 180px;
-  margin-top: 40px;
+  margin-top: 50px;
   border: 2px solid green;
 }
 .orbit4 {
@@ -122,7 +122,7 @@ body {
   height: 250px;
   position: absolute;
   border-radius: 50%;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-left: 155px;
   border: 2px solid yellow;
   
@@ -133,7 +133,7 @@ body {
 
   position: absolute;
   border-radius: 50%;
-  margin-top: -10px;
+  margin-top: 0px;
   margin-left: 130px;
   border: 2px solid white;
 }
@@ -156,21 +156,21 @@ body {
   margin-top: 36px;
   margin-left: 36px;
   padding: 0px;
-  animation: orbit2 3s infinite linear;
+  animation: orbit 3s infinite linear;
 }
 .logo2 {
   /* background-image: url(../images/star.png); */
   background-image: url("../../images/profileIcon.jpg");
   margin-top: 60px;
   margin-left: 60px;
-  animation: orbit3 6s infinite linear;
+  animation: orbit2 6s infinite linear;
 }
 .logo3 {
   /* background-image: url(../images/C.png); */
   background-image: url("../../images/profileIcon.jpg");
   margin-top: 84px;
   margin-left: 82px;
-  animation: orbit 2s infinite linear;
+  animation: orbit3 2s infinite linear;
 }
 
 .logo4 {
@@ -178,14 +178,14 @@ body {
   background-image: url("../../images/profileIcon.jpg");
   margin-top: 106px;
   margin-left: 106px;
-  animation: orbit5 4s infinite linear;
+  animation: orbit4 4s infinite linear;
 }
 .logo5 {
   /* background-image: url(../images/G.png); */
   background-image: url("../../images/profileIcon.jpg");
   margin-top: 135px;
   margin-left: 135px;
-  animation: orbit4 5s infinite linear;
+  animation: orbit5 5s infinite linear;
 }
 
 .logo,
@@ -204,45 +204,26 @@ body {
 }
 
 @keyframes orbit {
-  0% {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(100px) rotate(-360deg);
-  }
+  0%   {    transform: rotate(0deg)   translateX(50px) rotate(0deg);     }
+  100% {    transform: rotate(360deg) translateX(50px) rotate(-360deg);  }
 }
 @keyframes orbit2 {
-  0% {
-    transform: rotate(0deg) translateX(50px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(50px) rotate(-360deg);
-  }
+  0%   {    transform: rotate(0deg)   translateX(75px) rotate(0deg);     }
+  100% {    transform: rotate(360deg) translateX(75px) rotate(-360deg);  }
 }
 @keyframes orbit3 {
-  0% {
-    transform: rotate(0deg) translateX(75px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(75px) rotate(-360deg);
-  }
+  0%   {    transform: rotate(0deg)   translateX(100px) rotate(0deg);     }
+  100% {    transform: rotate(360deg) translateX(100px) rotate(-360deg);  }
 }
 @keyframes orbit4 {
-  0% {
-    transform: rotate(0deg) translateX(150px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(150px) rotate(-360deg);
-  }
+  0%   {    transform: rotate(0deg)   translateX(125px) rotate(0deg);     }
+  100% {    transform: rotate(360deg) translateX(125px) rotate(-360deg);  }
 }
 @keyframes orbit5 {
-  0% {
-    transform: rotate(0deg) translateX(125px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(125px) rotate(-360deg);
-  }
+  0%   {    transform: rotate(0deg)   translateX(150px) rotate(0deg);     }
+  100% {    transform: rotate(360deg) translateX(150px) rotate(-360deg);  }
 }
+
 
 /* Orbit ends */
 
