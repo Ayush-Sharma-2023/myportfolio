@@ -56,10 +56,17 @@ const openCodechef = () => {
                 </ul>
             </div>
 
-            <a href="/Ayush_resume.pdf" download="Ayush_Sharma_CV.pdf">
-            {/* <a href="/cv.pdf" download="Ayush_Sharma_CV.pdf" onClick={handleDownload}> */}
-        <button>Download CV</button>
-      </a>
+            {/* <a href="/Ayush_resume.pdf" download="Ayush_Sharma_CV.pdf">           
+
+            <button>Download CV</button>
+            </a> */}
+            <a href={`${process.env.PUBLIC_URL}/Ayush_resume.pdf`} download="Ayush_Sharma_CV.pdf">
+    <button>Download CV</button>
+</a>
+
+
+        
+      
             
             <button>Contact </button>
           </div>
