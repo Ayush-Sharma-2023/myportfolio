@@ -55,20 +55,20 @@ const openCodechef = () => {
                     <li className={style.iconitem} onClick={openCodechef}><SiCodechef/></li>
                 </ul>
             </div>
+            <br />
 
-            {/* <a href="/Ayush_resume.pdf" download="Ayush_Sharma_CV.pdf">           
-
-            <button>Download CV</button>
-            </a> */}
+            
             <a href={`${process.env.PUBLIC_URL}/Ayush_resume.pdf`} download="Ayush_Sharma_CV.pdf">
-    <button>Download CV</button>
-</a>
+            <button className={style.CV}>Download CV</button>
+            </a>
+    
+
 
 
         
       
             
-            <button>Contact </button>
+            {/* <button>Contact </button> */}
           </div>
 
           <div className="right">
@@ -101,6 +101,7 @@ const openCodechef = () => {
           </div>
         </div>
       </div>
+      <br /><br /><br /><br /><br />
     </>
   );
 }
