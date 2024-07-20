@@ -51,7 +51,7 @@ export default function Experience() {
               
               
                 <p className={style.company}>
-                <a href="https://rnpsoft.framer.website/" target="_blank"> @Rnpsoft</a> </p>
+                <a href="https://rnpsoft.framer.website/" target="_blank" rel="noreferrer"> @Rnpsoft</a> </p>
                 <br />
 
               <p className={style.jobDesc}>
