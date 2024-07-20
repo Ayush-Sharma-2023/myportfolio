@@ -23,12 +23,24 @@
   background-color: cyan;
   margin: auto;
 }
-.jobD{
+.jobD1{
   display: flex;
   
   align-items: center;
   justify-content: center;
+  width: 400px;
   
+  margin-left: 500px;
+  
+}
+.jobD2{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  
+  margin-left: 801px;
   
 }
 .content{
@@ -57,9 +69,37 @@
   cursor: pointer;
   
 }
+
+.role1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+.duration1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right
+
+}
+
+
+.company1{
+  
+  
+  /* width: 70px; */
+  text-align: right;
+  
+}
+
+
+
+.jobDesc1{
+  text-align: right
+}
 a{
   text-decoration: none;
   color: white;
+  
   
 }
 a:hover{
