@@ -30,7 +30,7 @@
   justify-content: center;
   width: 400px;
   
-  margin-left: 500px;
+  margin-left: 510px;
   
 }
 .jobD2{
@@ -41,10 +41,15 @@
   width: 400px;
   
   margin-left: 801px;
+  /* margin: auto; */
+
   
 }
 .content{
   margin: 0;
+  align-items: end;
+  justify-content: baseline;
+  
   
 
 }
