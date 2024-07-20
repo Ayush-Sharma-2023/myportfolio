@@ -24,7 +24,7 @@ const openCodechef = () => {
   return (
     <>
       <div className="home">
-        <h2>Test</h2>
+        <h2></h2> <br />
         {/* <h1> Home</h1> */}
 
         <div className={style.container}>
@@ -101,7 +101,7 @@ const openCodechef = () => {
           </div>
         </div>
       </div>
-      <br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br />
     </>
   );
 }

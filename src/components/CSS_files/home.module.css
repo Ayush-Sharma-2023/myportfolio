@@ -152,40 +152,45 @@ body {
 
 .logo {
   /* background-image: url(../images/figma.png); */
-  background-image: url("../../images/profileIcon.jpg");
+  background-image: url("../../images/HTML.png");
   margin-top: 36px;
   margin-left: 36px;
   padding: 0px;
   animation: orbit 3s infinite linear;
+  background-size: 70px;
 }
 .logo2 {
   /* background-image: url(../images/star.png); */
-  background-image: url("../../images/profileIcon.jpg");
+  background-image: url("../../images/CSS.webp");
   margin-top: 60px;
   margin-left: 60px;
   animation: orbit2 6s infinite linear;
+  background-size: 70px;
 }
 .logo3 {
   /* background-image: url(../images/C.png); */
-  background-image: url("../../images/profileIcon.jpg");
+  background-image: url("../../images/JS.jpg");
   margin-top: 84px;
   margin-left: 82px;
   animation: orbit3 2s infinite linear;
+  background-size: 70px;
 }
 
 .logo4 {
   /* background-image: url(../images/tri.png); */
-  background-image: url("../../images/profileIcon.jpg");
+  background-image: url("../../images/REACT.jpg");
   margin-top: 106px;
   margin-left: 106px;
   animation: orbit4 4s infinite linear;
+  background-size: 55px;
 }
 .logo5 {
   /* background-image: url(../images/G.png); */
-  background-image: url("../../images/profileIcon.jpg");
+  background-image: url("../../images/GIT.jpg");
   margin-top: 135px;
   margin-left: 135px;
   animation: orbit5 5s infinite linear;
+  background-size: 70px;
 }
 
 .logo,
@@ -193,11 +198,11 @@ body {
 .logo3,
 .logo4,
 .logo5 {
-  background-image: url("../../images/logo.jpg");
+  /* background-image: url("../../images/logo.jpg"); */
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  background-size: 30px;
+  /* background-size: 30px; */
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -303,4 +308,142 @@ body {
   
   
 }
+
+
+
+
+
+
+/* Solar system experimental  starts*/
+
+
+    
+
+  
+  
+  .orbit {
+    width: 200px;
+    height: 200px;
+    margin-top: 250px;
+    margin-left: 380px;
+  }
+  .orbit2 {
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 330px;
+  }
+  .orbit3 {
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 280px;
+  }
+  .orbit4 {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 230px;
+  }
+
+  .orbit5 {
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;    
+    margin-left: 180px;
+    
+  }
+  .orbit:hover, .orbit2:hover, .orbit3:hover, .orbit4:hover, .orbit5:hover{
+    
+    
+    /* border-style: solid; */
+    
+    
+  }
+  
+  .vector{
+    margin-top: 300px;
+    margin-left: 430px;
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+  }
+
+  .logo,
+.logo2,
+.logo3,
+.logo4,
+.logo5 {
+  /* background-image: url("../../images/logo.jpg"); */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* background-size: 50px; */
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  
+
+
+}
+  
+  
+  
+  
+  
+  .logo {
+    margin-top: 70px;
+    margin-left: 70px;
+    animation: orbit 3s infinite linear;
+  }
+  .logo2 {
+    margin-top: 120px;
+    margin-left: 120px;
+    animation: orbit2 4s infinite linear;
+  }
+  .logo3 {
+    margin-top: 170px;
+    margin-left: 170px;
+    animation: orbit3 5s infinite linear;
+  }
+  
+  .logo4 {
+    margin-top: 220px;
+    margin-left: 220px;
+    animation: orbit4 6s infinite linear;
+  }
+  .logo5 {
+    margin-top: 270px;
+    margin-left: 270px;
+    animation: orbit5 7s infinite linear;
+  }
+  
+  
+  
+  @keyframes orbit {
+    0%   {    transform: rotate(0deg)   translateX(100px) rotate(0deg);     }
+    100% {    transform: rotate(360deg) translateX(100px) rotate(-360deg);  }
+  }
+  @keyframes orbit2 {
+    0%   {    transform: rotate(0deg)   translateX(150px) rotate(0deg);     }
+    100% {    transform: rotate(360deg) translateX(150px) rotate(-360deg);  }
+  }
+  @keyframes orbit3 {
+    0%   {    transform: rotate(0deg)   translateX(200px) rotate(0deg);     }
+    100% {    transform: rotate(360deg) translateX(200px) rotate(-360deg);  }
+  }
+  @keyframes orbit4 {
+    0%   {    transform: rotate(0deg)   translateX(250px) rotate(0deg);     }
+    100% {    transform: rotate(360deg) translateX(250px) rotate(-360deg);  }
+  }
+  @keyframes orbit5 {
+    0%   {    transform: rotate(0deg)   translateX(300px) rotate(0deg);     }
+    100% {    transform: rotate(360deg) translateX(300px) rotate(-360deg);  }
+  }
+  
+
+
+  
+
+/* Solar system experimental  Ends*/
 
