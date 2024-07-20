@@ -1,0 +1,68 @@
+
+.XP{
+  height: 400px;
+}
+
+.dot{
+  
+  
+  width: 20px;
+  height: 20px;  
+  border-radius: 50%;
+  
+}
+
+.Vline{
+  
+  width: 5px;
+  height: 200px;
+   
+  
+}
+.dot, .Vline{
+  background-color: cyan;
+  margin: auto;
+}
+.jobD{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.content{
+  margin: 0;
+  
+
+}
+
+.role{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.duration{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.company{
+  
+  
+  width: 70px;
+}
+.company:hover{
+  cursor: pointer;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+a:hover{
+  color: cyan;
+
+}
