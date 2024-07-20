@@ -24,7 +24,7 @@ const openCodechef = () => {
   return (
     <>
       <div className="home">
-        <h2></h2> <br />
+        <h2>Test</h2> <br />
         {/* <h1> Home</h1> */}
 
         <div className={style.container}>
