@@ -6,7 +6,9 @@ export default function Experience() {
       <h1>Test</h1>
       <h1>Test</h1>
 
-      <div className={style.timeline}>
+      <p className={style.title}>My Experiences</p>
+
+      <div className={style.timeline}> <br />
 
       
       

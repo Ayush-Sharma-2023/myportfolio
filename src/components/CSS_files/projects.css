@@ -1,13 +1,25 @@
 .Projects{
     background-color: #192B43;
+    /* background-color: black; */
+
     /* margin-top: 20px; */
 }
 .calculator{
     width: 250px;
     margin: 20px;
+    border-radius: 8%;
 
 
 }
 .calculator:hover{
     cursor: pointer;
 }
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+  }

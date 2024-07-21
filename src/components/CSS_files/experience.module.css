@@ -111,3 +111,12 @@ a:hover{
   color: cyan;
 
 }
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Verdana;
+  font-weight: bold;
+  font-style: italic;
+}

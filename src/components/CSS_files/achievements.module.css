@@ -1,0 +1,34 @@
+.achievements{
+  height: 1000px;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Verdana;
+  font-weight: bold;
+  font-style: italic;
+}
+.boxes{
+  border: 1px solid yellow;
+  margin-top: 100px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.codechef,
+.coCurriculum,
+.others{
+  margin-top: 50px;
+  height: 200px;  
+  width: 400px;
+  border: 1px solid red;
+  cursor: pointer;
+  
+}
+
+/* .codechef{}
+.coCurriculum{}
+.others{} */
