@@ -11,12 +11,12 @@
   font-style: italic;
 }
 .boxes{
-  border: 1px solid yellow;
-  margin-top: 100px;
+  /* border: 1px solid yellow; */
+  /* margin-top: 0px; */
   height: 400px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  
 }
 .codechef,
 .coCurriculum,
@@ -24,11 +24,31 @@
   margin-top: 50px;
   height: 200px;  
   width: 400px;
-  border: 1px solid red;
+  border: 1px solid yellow;
   cursor: pointer;
+  background: url(../../images/achieve.jpg);
+  background-position: center;
+  background-size: 400px;
   
 }
 
+.certiAbout{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+.certiDetail{
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 500;
+  
+
+}
 /* .codechef{}
 .coCurriculum{}
 .others{} */

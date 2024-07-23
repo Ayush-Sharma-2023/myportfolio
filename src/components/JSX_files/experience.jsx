@@ -3,8 +3,8 @@ import style from "../CSS_files/experience.module.css";
 export default function Experience() {
   return (
     <>
-      <h1>Test</h1>
-      <h1>Test</h1>
+      
+      <br /><br /><br /><br />
 
       <p className={style.title}>My Experiences</p>
 
@@ -31,10 +31,10 @@ export default function Experience() {
                 <br />
 
               <p className={style.jobDesc}>
-                Worked in a team of 5 members <br />
-                Worked on projects using React <br />
-                Utilized Git and GitHub for collaboration <br />
-                Deployed websites using GitHub
+                Worked in a team of 5 members. <br />
+                Worked on projects using React. <br />
+                {/* Utilized Git and GitHub for collaboration <br /> */}
+                Created, hosted, deployed, <br />and maintained  GitHub repositories.
               </p>
             </div>
           </div>

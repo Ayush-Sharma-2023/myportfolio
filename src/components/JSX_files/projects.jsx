@@ -14,9 +14,9 @@ export default function Projects() {
 
     return(
         <>
-        <h2>Test</h2>
+        
 
-        <h1>Projects</h1>
+        <br /><br /><br /><br />
         
 
         <div className="Projects">

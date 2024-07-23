@@ -57,9 +57,10 @@ export default function Navbar({ onNavItemClick }) {
     return (
         <div className="navbar">
             <ul className="navlist">
-                <li className="navitem" onClick={() => onNavItemClick('home')}>Overview</li>
-                <li className="navitem" onClick={() => onNavItemClick('projects')}>Projects</li>
-                <li className="navitem" onClick={() => onNavItemClick('experience')}>Experience</li>
+                <li className="navitem" onClick ={() => onNavItemClick('home')}>Overview</li>
+                <li className="navitem" onClick ={() => onNavItemClick('projects')}>Projects</li>
+                <li className="navitem" onClick ={() => onNavItemClick('experience')}>Experience</li>
+                {/* <li className="navitem" onClick ={() => onNavItemClick('achievements')}>Achievements</li> */}
                 <li className="navitem" onClick={() => onNavItemClick('certificates')}>Achievements</li>
             </ul>
         </div>
