@@ -54,7 +54,7 @@ export default function Certificates() {
           Details of Achievement 2
           </div>}
         {selectedAchievement === 'achievement3' && <div className="achievement3">
-          Details of Achievement 3
+          {/* Details of Achievement 3 */}
           </div>}
 
         

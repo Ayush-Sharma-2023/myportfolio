@@ -1,25 +1,32 @@
-.Projects{
-    background-color: #192B43;
-    /* background-color: black; */
+.Projects {
+  background-color: #192b43;
+  /* background-color: black; */
 
-    /* margin-top: 20px; */
+  /* margin-top: 20px; */
 }
-.calculator{
-    width: 250px;
-    margin: 20px;
-    border-radius: 8%;
-
-
-}
-.calculator:hover{
-    cursor: pointer;
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Verdana;
+  font-weight: bold;
+  font-style: italic;
 }
 
-.title{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    font-family: Verdana;
-    font-weight: bold;
-    font-style: italic;
-  }
+.calculator {
+  width: 250px;
+  margin: 20px;
+  border-radius: 8%;
+}
+.calculator:hover {
+  cursor: pointer;
+}
+
+.Weather {
+  height: 280px;
+  margin: 20px;
+  border-radius: 8%;
+}
+.calculator:hover {
+  cursor: pointer;
+}
