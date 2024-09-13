@@ -12,7 +12,6 @@
 body {
   background-color: #192b43;
   /* background-color: black; */
-
 }
 .about {
   /* line-height: 40px; */
@@ -86,7 +85,6 @@ body {
   }
 }
 
-
 .orbit {
   width: 100px;
   height: 100px;
@@ -106,7 +104,6 @@ body {
   margin-top: 75px;
   margin-left: 205px;
   border: 2px solid blue;
-
 }
 
 .orbit3 {
@@ -127,7 +124,6 @@ body {
   margin-top: 25px;
   margin-left: 155px;
   border: 2px solid yellow;
-  
 }
 .orbit5 {
   width: 300px;
@@ -139,7 +135,6 @@ body {
   margin-left: 130px;
   border: 2px solid white;
 }
-
 
 .orbit,
 .orbit2,
@@ -211,33 +206,47 @@ body {
 }
 
 @keyframes orbit {
-  0%   {    transform: rotate(0deg)   translateX(50px) rotate(0deg);     }
-  100% {    transform: rotate(360deg) translateX(50px) rotate(-360deg);  }
+  0% {
+    transform: rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(50px) rotate(-360deg);
+  }
 }
 @keyframes orbit2 {
-  0%   {    transform: rotate(0deg)   translateX(75px) rotate(0deg);     }
-  100% {    transform: rotate(360deg) translateX(75px) rotate(-360deg);  }
+  0% {
+    transform: rotate(0deg) translateX(75px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(75px) rotate(-360deg);
+  }
 }
 @keyframes orbit3 {
-  0%   {    transform: rotate(0deg)   translateX(100px) rotate(0deg);     }
-  100% {    transform: rotate(360deg) translateX(100px) rotate(-360deg);  }
+  0% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
 }
 @keyframes orbit4 {
-  0%   {    transform: rotate(0deg)   translateX(125px) rotate(0deg);     }
-  100% {    transform: rotate(360deg) translateX(125px) rotate(-360deg);  }
+  0% {
+    transform: rotate(0deg) translateX(125px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(125px) rotate(-360deg);
+  }
 }
 @keyframes orbit5 {
-  0%   {    transform: rotate(0deg)   translateX(150px) rotate(0deg);     }
-  100% {    transform: rotate(360deg) translateX(150px) rotate(-360deg);  }
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
 }
 
-
 /* Orbit ends */
-
-
-
-
-
 
 /* Icons starts */
 .icons {
@@ -284,88 +293,72 @@ body {
 
 /* Icons ends */
 
-.CV{
+.CV {
   border: none;
   margin-left: 100px;
   width: 200px;
-  /* height: 50px; */  
-  color: white;  
-  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  /* height: 50px; */
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
-  font-size: 18px;   
-  font-weight: bold;   
-  background-color: #0576f0;    
-  border-radius: 25px;           
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #0576f0;
+  border-radius: 25px;
   transition: background-color 0.3s, transform 0.2s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
-  aspect-ratio: 4/1; 
-
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 4/1;
 }
-
 
 .CV:hover {
-  background-color: #0056b3;    /* Darker shade on hover */
+  background-color: #0056b3; /* Darker shade on hover */
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  
-  
 }
-
-
-
-
-
 
 /* Solar system experimental  starts*/
 
+.orbit {
+  width: 200px;
+  height: 200px;
+  margin-top: 250px;
+  margin-left: 380px;
+}
+.orbit2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 200px;
+  margin-left: 330px;
+}
+.orbit3 {
+  width: 400px;
+  height: 400px;
+  margin-top: 150px;
+  margin-left: 280px;
+}
+.orbit4 {
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 230px;
+}
 
-    
+.orbit5 {
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 180px;
+}
 
-  
-  
-  .orbit {
-    width: 200px;
-    height: 200px;
-    margin-top: 250px;
-    margin-left: 380px;
-  }
-  .orbit2 {
-    width: 300px;
-    height: 300px;
-    margin-top: 200px;
-    margin-left: 330px;
-  }
-  .orbit3 {
-    width: 400px;
-    height: 400px;
-    margin-top: 150px;
-    margin-left: 280px;
-  }
-  .orbit4 {
-    width: 500px;
-    height: 500px;
-    margin-top: 100px;
-    margin-left: 230px;
-  }
+.vector {
+  margin-top: 300px;
+  margin-left: 430px;
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+}
 
-  .orbit5 {
-    width: 600px;
-    height: 600px;
-    margin-top: 50px;    
-    margin-left: 180px;
-    
-  }
-
-  
-  .vector{
-    margin-top: 300px;
-    margin-left: 430px;
-    width: 100px;
-    height: 100px;
-    background-size: 100px;
-  }
-
-  .logo,
+.logo,
 .logo2,
 .logo3,
 .logo4,
@@ -378,68 +371,81 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  
 
 
 }
-  
-  
-  
-  
-  
-  .logo {
-    margin-top: 70px;
-    margin-left: 70px;
-    animation: orbit 3s infinite linear;
-  }
-  .logo2 {
-    margin-top: 120px;
-    margin-left: 120px;
-    animation: orbit2 4s infinite linear;
-  }
-  .logo3 {
-    margin-top: 170px;
-    margin-left: 170px;
-    animation: orbit3 5s infinite linear;
-  }
-  
-  .logo4 {
-    margin-top: 220px;
-    margin-left: 220px;
-    animation: orbit4 6s infinite linear;
-  }
-  .logo5 {
-    margin-top: 270px;
-    margin-left: 270px;
-    animation: orbit5 7s infinite linear;
-  }
-  
-  
-  
-  @keyframes orbit {
-    0%   {    transform: rotate(0deg)   translateX(100px) rotate(0deg);     }
-    100% {    transform: rotate(360deg) translateX(100px) rotate(-360deg);  }
-  }
-  @keyframes orbit2 {
-    0%   {    transform: rotate(0deg)   translateX(150px) rotate(0deg);     }
-    100% {    transform: rotate(360deg) translateX(150px) rotate(-360deg);  }
-  }
-  @keyframes orbit3 {
-    0%   {    transform: rotate(0deg)   translateX(200px) rotate(0deg);     }
-    100% {    transform: rotate(360deg) translateX(200px) rotate(-360deg);  }
-  }
-  @keyframes orbit4 {
-    0%   {    transform: rotate(0deg)   translateX(250px) rotate(0deg);     }
-    100% {    transform: rotate(360deg) translateX(250px) rotate(-360deg);  }
-  }
-  @keyframes orbit5 {
-    0%   {    transform: rotate(0deg)   translateX(300px) rotate(0deg);     }
-    100% {    transform: rotate(360deg) translateX(300px) rotate(-360deg);  }
-  }
-  
+
+.logo:hover{
+  animation: none;
+}
 
 
-  
+.logo {
+  margin-top: 70px;
+  margin-left: 70px;
+  animation: orbit 3s infinite linear;
+}
+.logo2 {
+  margin-top: 120px;
+  margin-left: 120px;
+  animation: orbit2 4s infinite linear;
+}
+.logo3 {
+  margin-top: 170px;
+  margin-left: 170px;
+  animation: orbit3 5s infinite linear;
+}
+
+.logo4 {
+  margin-top: 220px;
+  margin-left: 220px;
+  animation: orbit4 6s infinite linear;
+}
+.logo5 {
+  margin-top: 270px;
+  margin-left: 270px;
+  animation: orbit5 7s infinite linear;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}
+@keyframes orbit2 {
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+@keyframes orbit3 {
+  0% {
+    transform: rotate(0deg) translateX(200px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(200px) rotate(-360deg);
+  }
+}
+@keyframes orbit4 {
+  0% {
+    transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+@keyframes orbit5 {
+  0% {
+    transform: rotate(0deg) translateX(300px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(300px) rotate(-360deg);
+  }
+}
 
 /* Solar system experimental  Ends*/
-
